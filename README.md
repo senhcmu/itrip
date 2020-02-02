@@ -1,12 +1,6 @@
 
 # Itrip
 
-This repository is for your course final project. Your project team
-should complete all project work using this repository.
-
-Before your project demo, add to this file a link to your deployed
-web site:  https://itrip2019.herokuapp.com
-
 Itrip is a travel website. We want to provide a platform for users who are ethusiastic about traveling and are willing to share their experience with others. 
 
 We want to provide inspiration for people who are struggling about where to travel. Users can checkout the restaurants, hotels, attractions with the highest scroes from the world.
@@ -52,14 +46,6 @@ urllib3==1.25.7
 
 We deployed with heroku
 
-
-
-## Authors
-
-* **Zhaozhi Lin** - *Group Member* - [Zhaozhi Lin](https://github.com/GeorgiusLing)
-* **Siyu Guo** - *Group Member* - [Siyu gUO](https://github.com/cmu-webapps/siyuguo)
-* **Linyao Tu** - *Group Member* - [Linyao Tu](https://github.com/jennifertu)
-* **Sen Hong** - *Group Member* - [Sen Hong](https://github.com/senhcmu)
 
 
 
