@@ -1,0 +1,39 @@
+{
+  "name": "itrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./groupproject/frontend/src/index.js --output ./groupproject/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./groupproject/frontend/src/index.js --output ./groupproject/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "antd": "^3.24.3",
+    "axios": "^0.19.0",
+    "file-loader": "^4.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-draggable": "^4.1.0",
+    "react-dropzone": "^10.2.1",
+    "react-router-dom": "^5.1.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "superagent": "^5.1.1",
+    "url-loader": "^2.2.0"
+  }
+}
